@@ -8,15 +8,12 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     color: #272727;
     background-color: rgb(241, 237, 231);
-}
-
-.container {
-    margin: 1em;
 }
 
 .navbar {
