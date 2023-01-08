@@ -3,7 +3,7 @@ import './styles.css'
 import Card from './components/card'
 import Contact from './components/contact'
 
-const paths = ['925.jpg', '953.jpg', '954.jpg', '956.jpg', '959.jpg', '964.png', '970.jpg', '972.jpg', '985.jpg', '986.jpg', '998.jpg', '999.jpg', '1005.png', '1012.jpg', '1013.jpg', '1016.jpg', '1018.jpg', '1045.jpg', '1048.png', '1051.png', '1052.jpg', '1053.png', '1054.jpg', '1060.jpg', '1062.jpg', '1063.png', '1064.jpg', '1066.jpg', '1068.jpg', '1069.jpg', '1072.jpg', '1073.png', '1079.jpg', '1082.jpg', '1083.jpg', '1084.jpg', '1085.jpg', '1086.jpg', '1095.jpg', '1100.jpg', '1111.png']
+const paths = ['925.jpg', '953.jpg', '954.jpg', '956.jpg', '959.jpg', '964.png', '970.jpg', '972.jpg', '985.jpg', '986.jpg', '998.jpg', '999.jpg', '1005.png', '1012.jpg', '1013.jpg', '1016.jpg', '1018.jpg', '1045.jpg', '1048.png', '1051.png', '1052.jpg', '1053.png', '1054.jpg', '1060.jpg', '1062.jpg', '1063.png', '1064.jpg', '1066.jpg', '1068.jpg', '1069.jpg', '1072.jpg', '1073.png', '1079.jpg', '1082.jpg', '1083.jpg', '1084.jpg', '1085.jpg', '1086.jpg', '1095.jpg', '1100.jpg', '1111.png', 'EGF650R', 'EGF800C', 'EGF1000', 'EGF1000R', 'EGF1000RC', 'EGF1250C']]
 const descriptions = ['CAFE EXPRESS PAILLES 8" REGULIER 500/PK X 9 PK/CS ',
 'CONTENANT REFERMABLE EN BAGASSE 6" x 6" 50/PQT x 5/CS (1091385) ',
 'CONTENANT REFERMABLE EN BAGASSE 6" x 9" 50/PQT x 2/CS (1111582) ',
@@ -40,7 +40,13 @@ const descriptions = ['CAFE EXPRESS PAILLES 8" REGULIER 500/PK X 9 PK/CS ',
 'SACS A PAPIER KRAFT #5 500/CS (1327546) ', 'EMBALLAGE PAPIER D\'ALUMINIUM - 10.5" x 13" - 2500/CS (346097) ',
 'SUAVE SERVIETTES DE DINER 1 PLI 1/8 PLIER 12X250/PQ (1319253) ',
 'SUAVE SERVIETTE POUR DISTRIBUTRICE JUNIOR 500/PK X 18/CS (193173)(833342) ',
-'SUAVE PREMIUM 2 PLY JUMBO PAPIER HYGIENIQUE 8/CS (1300500) (1113083) ']
+'SUAVE PREMIUM 2 PLY JUMBO PAPIER HYGIENIQUE 8/CS (1300500) (1113083) ',
+'CONTENANT ROND POUR EMPORTER A BASE NOIRE 650ml AVEC COUVERCLE 50/PK X 3/CS',
+'CONTENANT RECTANGULAIRE POUR EMPORTER A BASE CLAIRE 800ml AVEC COUVERCLE 50/PK X 3/CS',
+'CONTENANT RECTANGULAIRE POUR EMPORTER A BASE NOIRE 1000ml AVEC COUVERCLE 50/PK X 3/CS',
+'CONTENANT ROND POUR EMPORTER A BASE NOIRE 1000ml AVEC COUVERCLE 50/PK X 3/CS',
+'CONTENANT ROND POUR EMPORTER A BASE CLAIRE 1000ml AVEC COUVERCLE 50/PK X 3/CS',
+'CONTENANT RECTANGULAIRE POUR EMPORTER A BASE CLAIRE 1250ml AVEC COUVERCLE 50/PK X 3/CS']
 
 var zip = [];
 zip = paths.map(function(e, i, a) {
